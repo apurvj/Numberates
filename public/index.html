@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Numberates</title>
+</head>
+<body onload="init()">
+    <main>
+        <button id="attemptLabel"></button>
+        <h2 id="attemptLabel1"></h2>
+        <div id="count2">
+            <div class="circle" id="attemptCount">
+                <h1 class="count1" id="count"></h1>
+            </div>
+        </div>
+        <h1 id="title">NUMBERATES</h1>
+        <div id="Welcome">
+            <h2 id="heading">Guess the number between 1-100</h2>
+        
+        <section class="event">
+            <div class="inputNum">
+                <label for="" id="textLabel">Enter the number:</label>
+                <input type="text" id="textBox" min="1" max="100">
+            </div>
+            <div class="btn">
+                <input type="button" value="Check" id="checkButton" onclick="check();">
+            </div>
+        </section>
+        </div>
+
+        <!-- congrats -->
+
+        <div class="congrats" id="congrats">
+            <img src="./pic3.png" alt="">
+            <h1 class="message">CONGRATS YOU HAVE WON THE GAME</h1>
+        </div>
+
+        <!-- sorry -->
+
+        <div class="sorry" id="sorry">
+            <img src="https://www.transparentpng.com/thumb/sad-emoji/Ej7iyi-sad-emoji-cut-out.png" alt="Sad Emoji Cut Out @transparentpng.com">
+            <h1 class="message">SORRY BETTER LUCK NEXT TIME</h1>
+        </div>
+
+
+        <h3 id="message"></h3>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

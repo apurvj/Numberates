@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(145deg,#F496BA,#FDCA89);
+}
+
+#attemptLabel1{
+    margin-bottom: 10px;
+    margin-left: 80vw;
+    color: #fff;
+}
+.count1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:red;
+}
+.circle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 80vw;
+    height: 200px;
+    width: 200px;
+    background-color:#FCC290 ;
+    border-radius: 50%;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom:5rem;
+    text-decoration: underline;
+}
+
+#Welcome{
+    width:50vw ;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#heading{
+    text-align: center;
+}
+.event{
+    margin-top:100px;
+    
+}
+
+.inputNum{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#textLabel{
+    font-weight: bold;
+    font-size :20px;
+}
+
+#textBox{
+    width:40%;
+    padding:4px;
+    background: linear-gradient(175deg,lightblue,#FDCA89);
+    outline :none;
+    border:none;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.btn{
+    margin-top:20px;
+    text-align:center;
+}
+
+#checkButton{
+    padding:15px 80px 15px 80px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    background-color:#F3B9A1;
+    color: #fff;
+    font-size: medium;
+}
+
+
+/* congrats */
+
+
+.congrats{
+    width:50vw;
+    height:45vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.sorry{
+    width:50vw;
+    height:45vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.message{
+    margin-top: 25%;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+}
+
+/* message */
+
+#message{
+    padding:5px;
+    color:white;
+}
+
+.message{
+    color:red;
+
+}
